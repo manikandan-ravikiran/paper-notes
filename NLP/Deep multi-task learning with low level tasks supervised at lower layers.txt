@@ -1,0 +1,42 @@
+Paper title: Deep multi-task learning(MTL) with low level tasks supervised at lower layers
+
+Summary:
+The paper presents its work on multitask learning
+Algorithms used include Bi-RNN
+Datasets: chunking/POS/CCG supertagging
+
+Contrbution:
+(i) Present a MTL architecture0 for 1sequence tagging with deep bi-RNNs;
+(ii) We show that having task supervision from all tasks at the outermost level is often suboptimal;
+(iii) we show that this architecture can be used for domain adaptation.
+
+Novel elements:
+Firstly work focusses on RNN instead of CNN like Collobert (2011)
+Secondly the paper proposes layer wise multitasking rather than last layer. 
+It validates  hypothesis that lower layers are sufficient for simple low leevel tasks and also benefit higher level tasks. It exploits local substructure property.
+Further validation of cross domain adaptation is a plus point.
+For domain adaptation, train(senna)+test(polyglot embedding) because test target domain had close relationship with senna tagger. See page 233 in paper
+
+Failures:
+NER/supersense tests MTL led to improvements.
+The method is effective only when the lower-level POS supervision is applied at the lower layer, supporting the importance
+of supervising different tasks at different layers.
+
+
+Notations:
+The notations are standard and easy to understand by reading the paper.
+
+Possible explorations/Open Questions:
+The paper doesnt give much info on hyperparameters.
+The method appears to use a 3 layer net. But no idea why? standard practise? Check with Collobert(2011) paper.
+Any relationship between the layers and tasks is to be explored.
+IF syntactic substructure is true then it must help in NER/sentence classification as both has common substructure.??
+
+
+Things learnt:
+MTL acros multiple layers.
+Rademacer complexity
+Syntactic substructure contribution to closely related tasks
+CCG supertagging.
+
+
