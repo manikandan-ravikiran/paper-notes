@@ -1,0 +1,19 @@
+Paper title: Dynamic routing between capsules
+
+Summary:
+
+Contrbution:
+
+Novel elements:
+
+Failures:
+
+
+Notations:
+
+Possible explorations/Open Questions:
+
+
+Things learnt:
+
+
