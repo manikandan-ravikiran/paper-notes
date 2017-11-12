@@ -1,0 +1,20 @@
+Paper title: Automatic Scale Selection and NN based Pruning for Improved and/or Fast Detections with SSD
+
+
+Summary:
+
+Contrbution:
+
+Novel elements:
+
+Failures:
+
+
+Notations:
+
+Possible explorations/Open Questions:
+
+
+Things learnt:
+
+
