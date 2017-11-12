@@ -1,0 +1,19 @@
+Paper title: Classifying Relations by Ranking with Convolutional Neural Networks
+
+Summary:
+
+Contrbution:
+
+Novel elements:
+
+Failures:
+
+
+Notations:
+
+Possible explorations/Open Questions:
+
+
+Things learnt:
+
+
