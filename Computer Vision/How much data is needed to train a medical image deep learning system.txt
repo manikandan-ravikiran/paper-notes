@@ -1,0 +1,20 @@
+Paper title: How much data is needed to train a medical image deep learning system
+
+
+Summary:
+
+Contrbution:
+
+Novel elements:
+
+Failures:
+
+
+Notations:
+
+Possible explorations/Open Questions:
+
+
+Things learnt:
+
+
