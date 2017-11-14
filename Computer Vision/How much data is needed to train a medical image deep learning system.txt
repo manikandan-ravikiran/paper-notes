@@ -2,19 +2,34 @@ Paper title: How much data is needed to train a medical image deep learning syst
 
 
 Summary:
+The paper describes a curve approach for amount of data required for achieving high accuracy.
+The approach used in learning curve approach. 
+The work claim such an analysis is pending in medical domain.
+Also the work follows power law where parameter are identified by weighed regression function
 
 Contrbution:
+An approach for selecting amount of dataset for medical image classification, with power law where the variance handling is done through power law.
 
 Novel elements:
+Application of said approach for medical image analysis using googlenet
 
 Failures:
+Even though the method validates for medical image analysis,sadly dataset is not available.
+Secondly the paper suggests that best method of figeura et al 2012 by stating some factor on thorough evaluation, but no information on what thorough information means?
 
 
-Notations:
+
+
+Notations: Nothing new, easy to follow
 
 Possible explorations/Open Questions:
+Adaptation to multiple other datasets and test validity of said approach.
 
 
 Things learnt:
+Hebbian principle
+inverse power law according to figuera et al.
+inconsistent variance handled through weight least scores
+
 
 
