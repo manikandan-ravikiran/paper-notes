@@ -1,19 +1,36 @@
 Paper title: Retroﬁtting Word Vectorsto Semantic Lexicons
+This is one of the comprehensive papers I have seen in some time.
 
 Summary:
 
+The paper summarizes a novel approach for improving word vector functionality using retrofitting on semantic lexicons.
+The paper intution is obsviously based on similar points must be collocated.
+The paper works with glove,word2vec, GC and mutiligual vectors(By same author) on semantic lexicons such as PPDB,WordNet and framenet.
+Further it evaluates strength of the method on wordsimilarity, syn-reln,TOEFL sematinc similarity task,sentiment analysis in two phases with complete training and retrofitting.
+
+
 Contrbution:
+1. graph-based learning technique for using lexical relational resources to obtain higher quality semantic vectors,
+which we call “retrofitting.”
+2. In contrast to previous work, retrofitting is applied as a post-processing step by running belief propagation on a graph constructed
+from lexicon-derived relational information to update word vectors
+3. TOEFL corpus
 
 Novel elements:
+Retrofitting without pretraining.
 
 Failures:
-
+The methods similarl to this are explored in computer vision domain, however the method is novel in terms of experiment and braod evaluations,
+The methods to explored to domain adapatation, which would be a strong point.
+The paper doesnt provide details on arrival of objective function, supplimentary material would have been very useful.
 
 Notations:
+Simpler and common
 
 Possible explorations/Open Questions:
-
+Across multiple datasets across domains like biomedicine/medicine/
 
 Things learnt:
-
+Objective function for retrofitting using system of linear equations.
+Multiple previous years on embedding and graph based method for embedding improvement
 
